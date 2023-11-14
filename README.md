@@ -1,1 +1,19 @@
-# cumtzhen.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>晚安，我的宝贝</title>
+</head>
+<body>
+
+<script>
+function sayGoodnight() {
+alert('晚安，我的宝贝！');
+}
+</script>
+
+<!-- 当页面加载时，调用sayGoodnight函数 -->
+<body onload="sayGoodnight()">
+</body>
+</html>
